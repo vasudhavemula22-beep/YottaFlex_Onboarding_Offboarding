@@ -10952,7 +10952,7 @@
     "assigned_to": "EMP-000996",
     "status": "RECOVERED",
     "assigned_at": "2026-06-12 14:00:00",
-    "recovered_at": "2026-10-30 08:13:18",
+    "recovered_at": "2026-10-30 08:47:19",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -10963,7 +10963,7 @@
     "assigned_to": "EMP-000997",
     "status": "RECOVERED",
     "assigned_at": "2026-06-15 14:00:00",
-    "recovered_at": "2026-10-30 08:13:18",
+    "recovered_at": "2026-10-30 08:47:19",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -10974,7 +10974,7 @@
     "assigned_to": "EMP-000998",
     "status": "RECOVERED",
     "assigned_at": "2026-06-15 14:00:00",
-    "recovered_at": "2026-10-30 08:13:18",
+    "recovered_at": "2026-10-30 08:47:19",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -10985,7 +10985,7 @@
     "assigned_to": "EMP-000999",
     "status": "RECOVERED",
     "assigned_at": "2026-06-09 14:00:00",
-    "recovered_at": "2026-10-30 08:13:18",
+    "recovered_at": "2026-10-30 08:47:19",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -10996,7 +10996,7 @@
     "assigned_to": "EMP-001000",
     "status": "RECOVERED",
     "assigned_at": "2026-06-13 14:00:00",
-    "recovered_at": "2026-10-30 08:13:18",
+    "recovered_at": "2026-10-30 08:47:19",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -11006,8 +11006,8 @@
     "model_name": "HP EliteBook 840 G10",
     "assigned_to": null,
     "status": "RECOVERED",
-    "assigned_at": "2026-10-30 08:13:18",
-    "recovered_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:18",
+    "recovered_at": "2026-10-30 08:47:18",
     "created_at": "2025-01-01 08:00:00"
   },
   {
@@ -11017,7 +11017,7 @@
     "model_name": "Lenovo ThinkPad P16s Gen 2",
     "assigned_to": "EMP-000151",
     "status": "ASSIGNED",
-    "assigned_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:19",
     "recovered_at": null,
     "created_at": "2025-01-01 08:00:00"
   },
@@ -11039,7 +11039,7 @@
     "model_name": "Lenovo ThinkPad P16s Gen 2",
     "assigned_to": "EMP-000152",
     "status": "ASSIGNED",
-    "assigned_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:19",
     "recovered_at": null,
     "created_at": "2025-01-01 08:00:00"
   },
@@ -11050,7 +11050,7 @@
     "model_name": "HP EliteBook 840 G10",
     "assigned_to": "EMP-000153",
     "status": "ASSIGNED",
-    "assigned_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:19",
     "recovered_at": null,
     "created_at": "2025-01-01 08:00:00"
   },
@@ -11061,7 +11061,7 @@
     "model_name": "Apple MacBook Pro 14 M3 Pro",
     "assigned_to": "EMP-000154",
     "status": "ASSIGNED",
-    "assigned_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:19",
     "recovered_at": null,
     "created_at": "2025-01-01 08:00:00"
   },
@@ -11083,7 +11083,7 @@
     "model_name": "Apple MacBook Pro 16 M3 Max",
     "assigned_to": "EMP-000155",
     "status": "ASSIGNED",
-    "assigned_at": "2026-10-30 08:13:18",
+    "assigned_at": "2026-10-30 08:47:19",
     "recovered_at": null,
     "created_at": "2025-01-01 08:00:00"
   },

@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-10-30 08:13:28 UTC",
+  "timestamp": "2026-10-30 08:44:45 UTC",
   "database": "yottaflex.db",
-  "total_findings": 25,
+  "total_findings": 5,
   "baseline_defects_count": 0,
-  "injected_anomalies_detected": 25,
+  "injected_anomalies_detected": 5,
   "metrics": {
-    "total_tasks": 8000,
-    "completed_tasks": 7798,
-    "task_completion_rate_pct": 97.47,
-    "total_active_grants": 1206,
-    "access_compliance_rate_pct": 99.17,
-    "total_assets": 1200,
-    "asset_reconciliation_rate_pct": 99.58
+    "total_tasks": 400,
+    "completed_tasks": 395,
+    "task_completion_rate_pct": 98.75,
+    "total_active_grants": 62,
+    "access_compliance_rate_pct": 96.77,
+    "total_assets": 60,
+    "asset_reconciliation_rate_pct": 98.33
   },
   "findings": [
     {
@@ -24,42 +24,6 @@
       "description": "Circular dependency between TASK-OFF-2026-000001-001 and TASK-OFF-2026-000001-002."
     },
     {
-      "dimension": "5_TASK_DEPENDENCIES",
-      "rule_id": "TASK_DEPENDENCY_CYCLE",
-      "severity": "CRITICAL",
-      "entity_name": "task_dependencies",
-      "record_id": "DEP-TASK-OFF-2026-000001-002-REV",
-      "is_injected_anomaly": true,
-      "description": "Circular dependency between TASK-OFF-2026-000001-002 and TASK-OFF-2026-000001-003."
-    },
-    {
-      "dimension": "5_TASK_DEPENDENCIES",
-      "rule_id": "TASK_DEPENDENCY_CYCLE",
-      "severity": "CRITICAL",
-      "entity_name": "task_dependencies",
-      "record_id": "DEP-TASK-OFF-2026-000001-003-REV",
-      "is_injected_anomaly": true,
-      "description": "Circular dependency between TASK-OFF-2026-000001-003 and TASK-OFF-2026-000001-004."
-    },
-    {
-      "dimension": "5_TASK_DEPENDENCIES",
-      "rule_id": "TASK_DEPENDENCY_CYCLE",
-      "severity": "CRITICAL",
-      "entity_name": "task_dependencies",
-      "record_id": "DEP-TASK-OFF-2026-000001-004-REV",
-      "is_injected_anomaly": true,
-      "description": "Circular dependency between TASK-OFF-2026-000001-004 and TASK-OFF-2026-000001-005."
-    },
-    {
-      "dimension": "5_TASK_DEPENDENCIES",
-      "rule_id": "TASK_DEPENDENCY_CYCLE",
-      "severity": "CRITICAL",
-      "entity_name": "task_dependencies",
-      "record_id": "DEP-TASK-OFF-2026-000001-005-REV",
-      "is_injected_anomaly": true,
-      "description": "Circular dependency between TASK-OFF-2026-000001-005 and TASK-OFF-2026-000001-006."
-    },
-    {
       "dimension": "6_ACCESS_RECONCILIATION",
       "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
       "severity": "CRITICAL",
@@ -70,174 +34,30 @@
     },
     {
       "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000002-001",
-      "is_injected_anomaly": true,
-      "description": "Terminated employee EMP-000002 retains active access grant."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000003-001",
-      "is_injected_anomaly": true,
-      "description": "Terminated employee EMP-000003 retains active access grant."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000001-002",
-      "is_injected_anomaly": true,
-      "description": "Terminated employee EMP-000001 retains active access grant."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000002-002",
-      "is_injected_anomaly": true,
-      "description": "Terminated employee EMP-000002 retains active access grant."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
       "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
       "severity": "CRITICAL",
       "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000996-001",
+      "record_id": "GRANT-EMP-000050-001",
       "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-000996-001 active before start date 2026-06-15 or unapproved."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000997-001",
-      "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-000997-001 active before start date 2026-06-18 or unapproved."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000998-001",
-      "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-000998-001 active before start date 2026-06-18 or unapproved."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000999-001",
-      "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-000999-001 active before start date 2026-06-12 or unapproved."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-001000-001",
-      "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-001000-001 active before start date 2026-06-16 or unapproved."
+      "description": "Grant GRANT-EMP-000050-001 active before start date 2026-06-21 or unapproved."
     },
     {
       "dimension": "7_ASSET_RECONCILIATION",
       "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
       "severity": "HIGH",
       "entity_name": "assets",
-      "record_id": "AST-000151,AST-001002",
+      "record_id": "AST-000009,AST-000053",
       "is_injected_anomaly": true,
-      "description": "Custodian EMP-000151 holds multiple active laptops (AST-000151,AST-001002)."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000152,AST-001004",
-      "is_injected_anomaly": true,
-      "description": "Custodian EMP-000152 holds multiple active laptops (AST-000152,AST-001004)."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000153,AST-001005",
-      "is_injected_anomaly": true,
-      "description": "Custodian EMP-000153 holds multiple active laptops (AST-000153,AST-001005)."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000154,AST-001006",
-      "is_injected_anomaly": true,
-      "description": "Custodian EMP-000154 holds multiple active laptops (AST-000154,AST-001006)."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000155,AST-001008",
-      "is_injected_anomaly": true,
-      "description": "Custodian EMP-000155 holds multiple active laptops (AST-000155,AST-001008)."
+      "description": "Custodian EMP-000009 holds multiple active laptops (AST-000009,AST-000053)."
     },
     {
       "dimension": "7_ASSET_RECONCILIATION",
       "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
       "severity": "HIGH",
       "entity_name": "assets",
-      "record_id": "AST-000996",
+      "record_id": "AST-000050",
       "is_injected_anomaly": true,
-      "description": "Asset AST-000996 marked RECOVERED but retains custodian EMP-000996."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000997",
-      "is_injected_anomaly": true,
-      "description": "Asset AST-000997 marked RECOVERED but retains custodian EMP-000997."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000998",
-      "is_injected_anomaly": true,
-      "description": "Asset AST-000998 marked RECOVERED but retains custodian EMP-000998."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-000999",
-      "is_injected_anomaly": true,
-      "description": "Asset AST-000999 marked RECOVERED but retains custodian EMP-000999."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-      "severity": "HIGH",
-      "entity_name": "assets",
-      "record_id": "AST-001000",
-      "is_injected_anomaly": true,
-      "description": "Asset AST-001000 marked RECOVERED but retains custodian EMP-001000."
+      "description": "Asset AST-000050 marked RECOVERED but retains custodian EMP-000050."
     }
   ]
 }
