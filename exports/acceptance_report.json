@@ -1,6 +1,6 @@
 {
   "acceptance_workflows": {
-    "timestamp": "2026-10-29 19:28:40 UTC",
+    "timestamp": "2026-10-30 07:15:50 UTC",
     "total_acceptance_tests": 12,
     "passed": 12,
     "failed": 0,
@@ -70,10 +70,10 @@
   },
   "anomaly_benchmark": {
     "overall_summary": {
-      "total_ground_truth_anomalies": 5,
-      "total_detections": 7,
-      "total_true_positives": 5,
-      "total_false_positives": 2,
+      "total_ground_truth_anomalies": 25,
+      "total_detections": 35,
+      "total_true_positives": 25,
+      "total_false_positives": 10,
       "total_false_negatives": 0,
       "precision": 0.7143,
       "recall": 1.0,
@@ -82,50 +82,50 @@
     "by_scenario": {
       "SCENARIO_1_PRESTART_ACCESS": {
         "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
-        "true_positives": 1,
+        "true_positives": 5,
         "false_positives": 0,
         "false_negatives": 0,
-        "true_negatives": 199,
+        "true_negatives": 195,
         "precision": 1.0,
         "recall": 1.0,
         "f1_score": 1.0
       },
       "SCENARIO_2_DUPLICATE_ASSET": {
         "scenario_id": "SCENARIO_2_DUPLICATE_ASSET",
-        "true_positives": 1,
-        "false_positives": 1,
+        "true_positives": 5,
+        "false_positives": 5,
         "false_negatives": 0,
-        "true_negatives": 198,
+        "true_negatives": 190,
         "precision": 0.5,
         "recall": 1.0,
         "f1_score": 0.6667
       },
       "SCENARIO_3_TERMINATED_RETAINS_ACCESS": {
         "scenario_id": "SCENARIO_3_TERMINATED_RETAINS_ACCESS",
-        "true_positives": 1,
+        "true_positives": 5,
         "false_positives": 0,
         "false_negatives": 0,
-        "true_negatives": 199,
+        "true_negatives": 195,
         "precision": 1.0,
         "recall": 1.0,
         "f1_score": 1.0
       },
       "SCENARIO_4_TASK_CYCLE": {
         "scenario_id": "SCENARIO_4_TASK_CYCLE",
-        "true_positives": 1,
-        "false_positives": 1,
+        "true_positives": 5,
+        "false_positives": 5,
         "false_negatives": 0,
-        "true_negatives": 198,
+        "true_negatives": 190,
         "precision": 0.5,
         "recall": 1.0,
         "f1_score": 0.6667
       },
       "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED": {
         "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
-        "true_positives": 1,
+        "true_positives": 5,
         "false_positives": 0,
         "false_negatives": 0,
-        "true_negatives": 199,
+        "true_negatives": 195,
         "precision": 1.0,
         "recall": 1.0,
         "f1_score": 1.0

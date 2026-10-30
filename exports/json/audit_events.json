@@ -2695,8 +2695,8 @@
     "actor_id": "EMP-000009",
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"BLOCKED\", \"completed_at\": null}",
-    "new_values_json": "{\"status\": \"COMPLETED\", \"completed_at\": \"2026-10-29 19:28:22\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "new_values_json": "{\"status\": \"COMPLETED\", \"completed_at\": \"2026-10-30 07:01:50\"}",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Authorized override applied: Expedited provisioning authorized by VP of IT."
   },
   {
@@ -2708,7 +2708,7 @@
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"BLOCKED\"}",
     "new_values_json": "{\"status\": \"PENDING\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "All prerequisites satisfied. Task unblocked following completion of TASK-ONB-2026-000032-005."
   },
   {
@@ -2720,7 +2720,7 @@
     "actor_role": "CANDIDATE",
     "old_values_json": null,
     "new_values_json": "{\"status\": \"REQUESTED\", \"role\": \"ACR-007\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Access entitlement requested for AWS Production Infrastructure Admin."
   },
   {
@@ -2732,7 +2732,7 @@
     "actor_role": "MANAGER",
     "old_values_json": "{\"status\": \"REQUESTED\"}",
     "new_values_json": "{\"status\": \"APPROVED\", \"approver\": \"EMP-000010\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Approved after management review."
   },
   {
@@ -2743,8 +2743,8 @@
     "actor_id": "EMP-000010",
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"APPROVED\"}",
-    "new_values_json": "{\"status\": \"ACTIVE\", \"granted_at\": \"2026-10-29 19:28:22\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "new_values_json": "{\"status\": \"ACTIVE\", \"granted_at\": \"2026-10-30 07:01:50\"}",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Simulated provisioning executed successfully in identity system."
   },
   {
@@ -2755,8 +2755,8 @@
     "actor_id": "EMP-000009",
     "actor_role": "IT_OPERATIONS",
     "old_values_json": "{\"status\": \"IN_STOCK\", \"assigned_to\": null}",
-    "new_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000010\", \"assigned_at\": \"2026-10-29 19:28:22\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "new_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000010\", \"assigned_at\": \"2026-10-30 07:01:50\"}",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Hardware asset assigned to EMP-000010."
   },
   {
@@ -2768,7 +2768,7 @@
     "actor_role": "CANDIDATE",
     "old_values_json": "{\"status\": \"ASSIGNED\"}",
     "new_values_json": "{\"status\": \"ASSIGNED\", \"acknowledged\": true}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Formal equipment custody acknowledgement signed by employee."
   },
   {
@@ -2779,8 +2779,8 @@
     "actor_id": "EMP-000009",
     "actor_role": "IT_OPERATIONS",
     "old_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000010\"}",
-    "new_values_json": "{\"status\": \"RECOVERED\", \"assigned_to\": null, \"recovered_at\": \"2026-10-29 19:28:22\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "new_values_json": "{\"status\": \"RECOVERED\", \"assigned_to\": null, \"recovered_at\": \"2026-10-30 07:01:50\"}",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Hardware inspected, wiped, and recovered to inventory."
   },
   {
@@ -2792,7 +2792,7 @@
     "actor_role": "HR_PARTNER",
     "old_values_json": "{\"status\": \"ACTIVE\"}",
     "new_values_json": "{\"status\": \"TERMINATED\", \"termination_date\": \"2026-11-30\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Offboarding initiated (VOLUNTARY). Reason: Accepted opportunity outside the firm."
   },
   {
@@ -2804,7 +2804,7 @@
     "actor_role": "HR_PARTNER",
     "old_values_json": null,
     "new_values_json": "{\"status\": \"INITIATED\", \"effective_date\": \"2026-11-30\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:50",
     "details": "Offboarding lifecycle container instantiated."
   },
   {
@@ -2816,7 +2816,7 @@
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"ACTIVE\", \"granted_at\": \"2026-06-15 09:00:00\", \"approver_id\": \"EMP-000001\"}",
     "new_values_json": "{\"status\": \"ACTIVE\", \"granted_at\": \"2026-05-25 08:00:00\", \"approver_id\": null}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:51",
     "details": "Synthetic negative test case injected: Premature access activation for EMP-000049 prior to start date 2026-06-15."
   },
   {
@@ -2828,7 +2828,7 @@
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"IN_STOCK\", \"assigned_to\": null}",
     "new_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000009\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:51",
     "details": "Synthetic negative test case injected: Duplicate laptop asset AST-000053 assigned to custodian EMP-000009."
   },
   {
@@ -2840,7 +2840,7 @@
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"REVOKED\"}",
     "new_values_json": "{\"status\": \"ACTIVE\", \"revoked_at\": null}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:51",
     "details": "Synthetic negative test case injected: Active grant retained for terminated employee EMP-000001 (Terminated on 2025-12-26)."
   },
   {
@@ -2852,7 +2852,7 @@
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{}",
     "new_values_json": "{\"cycle\": \"TASK-OFF-2026-000001-002 <-> TASK-OFF-2026-000001-001\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "timestamp": "2026-10-30 07:01:51",
     "details": "Synthetic negative test case injected: Injected circular dependency between TASK-OFF-2026-000001-002 and TASK-OFF-2026-000001-001."
   },
   {
@@ -2863,8 +2863,116 @@
     "actor_id": "SYSTEM_INJECTOR",
     "actor_role": "SYSTEM_ADMIN",
     "old_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000049\"}",
-    "new_values_json": "{\"status\": \"RECOVERED\", \"assigned_to\": \"EMP-000049\", \"recovered_at\": \"2026-10-29 19:28:22\"}",
-    "timestamp": "2026-10-29 19:28:22",
+    "new_values_json": "{\"status\": \"RECOVERED\", \"assigned_to\": \"EMP-000049\", \"recovered_at\": \"2026-10-30 07:01:51\"}",
+    "timestamp": "2026-10-30 07:01:51",
     "details": "Synthetic negative test case injected: Asset AST-000049 marked RECOVERED while retaining custodian reference EMP-000049."
+  },
+  {
+    "event_id": "AUD-0000000240",
+    "entity_name": "tasks",
+    "record_id": "TASK-ONB-2026-000032-007",
+    "action": "OVERRIDE",
+    "actor_id": "EMP-000009",
+    "actor_role": "SYSTEM_ADMIN",
+    "old_values_json": "{\"status\": \"BLOCKED\", \"completed_at\": null}",
+    "new_values_json": "{\"status\": \"COMPLETED\", \"completed_at\": \"2026-10-30 07:04:02\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Authorized override applied: Expedited provisioning authorized by VP of IT."
+  },
+  {
+    "event_id": "AUD-0000000241",
+    "entity_name": "access_grants",
+    "record_id": "GRANT-EMP-000009-004",
+    "action": "INSERT",
+    "actor_id": "EMP-000009",
+    "actor_role": "CANDIDATE",
+    "old_values_json": null,
+    "new_values_json": "{\"status\": \"REQUESTED\", \"role\": \"ACR-007\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Access entitlement requested for AWS Production Infrastructure Admin."
+  },
+  {
+    "event_id": "AUD-0000000242",
+    "entity_name": "access_grants",
+    "record_id": "GRANT-EMP-000009-004",
+    "action": "UPDATE",
+    "actor_id": "EMP-000010",
+    "actor_role": "MANAGER",
+    "old_values_json": "{\"status\": \"REQUESTED\"}",
+    "new_values_json": "{\"status\": \"APPROVED\", \"approver\": \"EMP-000010\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Approved after management review."
+  },
+  {
+    "event_id": "AUD-0000000243",
+    "entity_name": "access_grants",
+    "record_id": "GRANT-EMP-000009-004",
+    "action": "UPDATE",
+    "actor_id": "EMP-000010",
+    "actor_role": "SYSTEM_ADMIN",
+    "old_values_json": "{\"status\": \"APPROVED\"}",
+    "new_values_json": "{\"status\": \"ACTIVE\", \"granted_at\": \"2026-10-30 07:04:02\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Simulated provisioning executed successfully in identity system."
+  },
+  {
+    "event_id": "AUD-0000000244",
+    "entity_name": "assets",
+    "record_id": "AST-000054",
+    "action": "UPDATE",
+    "actor_id": "EMP-000009",
+    "actor_role": "IT_OPERATIONS",
+    "old_values_json": "{\"status\": \"IN_STOCK\", \"assigned_to\": null}",
+    "new_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000010\", \"assigned_at\": \"2026-10-30 07:04:02\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Hardware asset assigned to EMP-000010."
+  },
+  {
+    "event_id": "AUD-0000000245",
+    "entity_name": "assets",
+    "record_id": "AST-000054",
+    "action": "UPDATE",
+    "actor_id": "EMP-000010",
+    "actor_role": "CANDIDATE",
+    "old_values_json": "{\"status\": \"ASSIGNED\"}",
+    "new_values_json": "{\"status\": \"ASSIGNED\", \"acknowledged\": true}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Formal equipment custody acknowledgement signed by employee."
+  },
+  {
+    "event_id": "AUD-0000000246",
+    "entity_name": "assets",
+    "record_id": "AST-000054",
+    "action": "UPDATE",
+    "actor_id": "EMP-000009",
+    "actor_role": "IT_OPERATIONS",
+    "old_values_json": "{\"status\": \"ASSIGNED\", \"assigned_to\": \"EMP-000010\"}",
+    "new_values_json": "{\"status\": \"RECOVERED\", \"assigned_to\": null, \"recovered_at\": \"2026-10-30 07:04:02\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Hardware inspected, wiped, and recovered to inventory."
+  },
+  {
+    "event_id": "AUD-0000000247",
+    "entity_name": "employees",
+    "record_id": "EMP-000049",
+    "action": "UPDATE",
+    "actor_id": "EMP-000009",
+    "actor_role": "HR_PARTNER",
+    "old_values_json": "{\"status\": \"ACTIVE\"}",
+    "new_values_json": "{\"status\": \"TERMINATED\", \"termination_date\": \"2026-11-30\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Offboarding initiated (VOLUNTARY). Reason: Accepted opportunity outside the firm."
+  },
+  {
+    "event_id": "AUD-0000000248",
+    "entity_name": "offboarding_cases",
+    "record_id": "OFF-2026-000010",
+    "action": "INSERT",
+    "actor_id": "EMP-000009",
+    "actor_role": "HR_PARTNER",
+    "old_values_json": null,
+    "new_values_json": "{\"status\": \"INITIATED\", \"effective_date\": \"2026-11-30\"}",
+    "timestamp": "2026-10-30 07:04:02",
+    "details": "Offboarding lifecycle container instantiated."
   }
 ]

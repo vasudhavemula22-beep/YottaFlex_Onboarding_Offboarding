@@ -2055,42 +2055,78 @@
     "dependency_id": "DEP-TASK-OFF-2026-000009-005-004",
     "task_id": "TASK-OFF-2026-000009-005",
     "prerequisite_task_id": "TASK-OFF-2026-000009-004",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000009-006-001",
     "task_id": "TASK-OFF-2026-000009-006",
     "prerequisite_task_id": "TASK-OFF-2026-000009-001",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000009-006-003",
     "task_id": "TASK-OFF-2026-000009-006",
     "prerequisite_task_id": "TASK-OFF-2026-000009-003",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000009-007-004",
     "task_id": "TASK-OFF-2026-000009-007",
     "prerequisite_task_id": "TASK-OFF-2026-000009-004",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000009-007-005",
     "task_id": "TASK-OFF-2026-000009-007",
     "prerequisite_task_id": "TASK-OFF-2026-000009-005",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000009-007-006",
     "task_id": "TASK-OFF-2026-000009-007",
     "prerequisite_task_id": "TASK-OFF-2026-000009-006",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "dependency_id": "DEP-TASK-OFF-2026-000001-001-REV",
     "task_id": "TASK-OFF-2026-000001-001",
     "prerequisite_task_id": "TASK-OFF-2026-000001-002",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:51"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-005-004",
+    "task_id": "TASK-OFF-2026-000010-005",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-004",
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-006-001",
+    "task_id": "TASK-OFF-2026-000010-006",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-001",
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-006-003",
+    "task_id": "TASK-OFF-2026-000010-006",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-003",
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-007-004",
+    "task_id": "TASK-OFF-2026-000010-007",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-004",
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-007-005",
+    "task_id": "TASK-OFF-2026-000010-007",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-005",
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "dependency_id": "DEP-TASK-OFF-2026-000010-007-006",
+    "task_id": "TASK-OFF-2026-000010-007",
+    "prerequisite_task_id": "TASK-OFF-2026-000010-006",
+    "created_at": "2026-10-30 07:04:02"
   }
 ]

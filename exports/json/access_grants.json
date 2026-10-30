@@ -531,11 +531,11 @@
     "grant_id": "GRANT-EMP-000049-001",
     "employee_id": "EMP-000049",
     "access_role_id": "ACR-001",
-    "status": "ACTIVE",
+    "status": "REVOKED",
     "granted_at": "2026-05-25 08:00:00",
-    "revoked_at": null,
+    "revoked_at": "2026-10-30 07:04:02",
     "approver_id": null,
-    "notes": "INJECTED ANOMALY: Premature activation without manager approval",
+    "notes": "Automated departure revocation.",
     "created_at": "2026-05-24 10:00:00"
   },
   {
@@ -544,7 +544,7 @@
     "access_role_id": "ACR-002",
     "status": "REVOKED",
     "granted_at": "2026-06-21 09:00:00",
-    "revoked_at": "2026-10-29 19:28:22",
+    "revoked_at": "2026-10-30 07:01:50",
     "approver_id": "EMP-000001",
     "notes": "Automated departure revocation.",
     "created_at": "2026-05-29 10:00:00"
@@ -829,10 +829,21 @@
     "employee_id": "EMP-000009",
     "access_role_id": "ACR-007",
     "status": "ACTIVE",
-    "granted_at": "2026-10-29 19:28:22",
+    "granted_at": "2026-10-30 07:01:50",
     "revoked_at": null,
     "approver_id": "EMP-000010",
     "notes": "Approved after management review.",
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
+  },
+  {
+    "grant_id": "GRANT-EMP-000009-004",
+    "employee_id": "EMP-000009",
+    "access_role_id": "ACR-007",
+    "status": "ACTIVE",
+    "granted_at": "2026-10-30 07:04:02",
+    "revoked_at": null,
+    "approver_id": "EMP-000010",
+    "notes": "Approved after management review.",
+    "created_at": "2026-10-30 07:04:02"
   }
 ]

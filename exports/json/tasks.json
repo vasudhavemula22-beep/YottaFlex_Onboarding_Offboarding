@@ -2660,7 +2660,7 @@
     "assigned_actor": "CANDIDATE",
     "status": "COMPLETED",
     "due_date": "2026-03-26",
-    "completed_at": "2026-10-29 19:28:22",
+    "completed_at": "2026-10-30 07:01:50",
     "created_at": "2026-03-03 09:00:00"
   },
   {
@@ -2682,9 +2682,9 @@
     "task_name": "30-Day Check-in & Manager Performance Alignment",
     "task_category": "TRAINING",
     "assigned_actor": "MANAGER",
-    "status": "BLOCKED",
+    "status": "COMPLETED",
     "due_date": "2026-04-23",
-    "completed_at": null,
+    "completed_at": "2026-10-30 07:04:02",
     "created_at": "2026-03-03 09:00:00"
   },
   {
@@ -4809,7 +4809,7 @@
     "status": "PENDING",
     "due_date": "2026-11-27",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-002",
@@ -4821,7 +4821,7 @@
     "status": "PENDING",
     "due_date": "2026-11-28",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-003",
@@ -4833,7 +4833,7 @@
     "status": "PENDING",
     "due_date": "2026-11-30",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-004",
@@ -4845,7 +4845,7 @@
     "status": "PENDING",
     "due_date": "2026-11-30",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-005",
@@ -4857,7 +4857,7 @@
     "status": "BLOCKED",
     "due_date": "2026-12-01",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-006",
@@ -4869,7 +4869,7 @@
     "status": "BLOCKED",
     "due_date": "2026-12-02",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
   },
   {
     "task_id": "TASK-OFF-2026-000009-007",
@@ -4881,6 +4881,90 @@
     "status": "BLOCKED",
     "due_date": "2026-12-03",
     "completed_at": null,
-    "created_at": "2026-10-29 19:28:22"
+    "created_at": "2026-10-30 07:01:50"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-001",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Conduct Formal HR Exit Interview",
+    "task_category": "DOCUMENTATION",
+    "assigned_actor": "HR_PARTNER",
+    "status": "PENDING",
+    "due_date": "2026-11-27",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-002",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Initiate Knowledge Transfer & Operational Handoff",
+    "task_category": "TRAINING",
+    "assigned_actor": "MANAGER",
+    "status": "PENDING",
+    "due_date": "2026-11-28",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-003",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Recover Laptop, Badges and Security Tokens",
+    "task_category": "HARDWARE",
+    "assigned_actor": "IT_OPERATIONS",
+    "status": "PENDING",
+    "due_date": "2026-11-30",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-004",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Revoke Core Cloud & SSO Access Entitlements",
+    "task_category": "SECURITY",
+    "assigned_actor": "SYSTEM_ADMIN",
+    "status": "PENDING",
+    "due_date": "2026-11-30",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-005",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Archive Mailbox & Configure Inbound Auto-Reply",
+    "task_category": "IT_PROVISIONING",
+    "assigned_actor": "IT_OPERATIONS",
+    "status": "BLOCKED",
+    "due_date": "2026-12-01",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-006",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "Final Payroll & Benefits Settlement Signoff",
+    "task_category": "HR_APPROVAL",
+    "assigned_actor": "HR_PARTNER",
+    "status": "BLOCKED",
+    "due_date": "2026-12-02",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
+  },
+  {
+    "task_id": "TASK-OFF-2026-000010-007",
+    "case_type": "OFFBOARDING",
+    "case_id": "OFF-2026-000010",
+    "task_name": "System Offboarding Audit Verification",
+    "task_category": "SECURITY",
+    "assigned_actor": "SYSTEM_ADMIN",
+    "status": "BLOCKED",
+    "due_date": "2026-12-03",
+    "completed_at": null,
+    "created_at": "2026-10-30 07:04:02"
   }
 ]
