@@ -4,34 +4,349 @@
     "employee_id": "EMP-000001",
     "dept_id": "DEP-007",
     "is_active": 1,
-    "appointed_at": "2025-10-21 09:00:00"
+    "appointed_at": "2025-10-17 09:00:00"
   },
   {
     "manager_id": "MGR-000002",
     "employee_id": "EMP-000002",
     "dept_id": "DEP-003",
     "is_active": 1,
-    "appointed_at": "2025-11-06 09:00:00"
+    "appointed_at": "2025-10-28 09:00:00"
   },
   {
     "manager_id": "MGR-000003",
     "employee_id": "EMP-000003",
     "dept_id": "DEP-003",
     "is_active": 1,
-    "appointed_at": "2025-11-08 09:00:00"
+    "appointed_at": "2025-10-25 09:00:00"
   },
   {
     "manager_id": "MGR-000004",
     "employee_id": "EMP-000004",
     "dept_id": "DEP-002",
     "is_active": 1,
-    "appointed_at": "2025-11-15 09:00:00"
+    "appointed_at": "2025-10-27 09:00:00"
   },
   {
     "manager_id": "MGR-000005",
     "employee_id": "EMP-000005",
     "dept_id": "DEP-003",
     "is_active": 1,
+    "appointed_at": "2025-10-16 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000006",
+    "employee_id": "EMP-000006",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-10-23 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000007",
+    "employee_id": "EMP-000007",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-10-30 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000008",
+    "employee_id": "EMP-000008",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-21 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000009",
+    "employee_id": "EMP-000009",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-18 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000010",
+    "employee_id": "EMP-000010",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-23 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000011",
+    "employee_id": "EMP-000011",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-21 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000012",
+    "employee_id": "EMP-000012",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-10-20 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000013",
+    "employee_id": "EMP-000013",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000014",
+    "employee_id": "EMP-000014",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-24 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000015",
+    "employee_id": "EMP-000015",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-18 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000016",
+    "employee_id": "EMP-000016",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000017",
+    "employee_id": "EMP-000017",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000018",
+    "employee_id": "EMP-000018",
+    "dept_id": "DEP-004",
+    "is_active": 1,
+    "appointed_at": "2025-10-19 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000019",
+    "employee_id": "EMP-000019",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-23 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000020",
+    "employee_id": "EMP-000020",
+    "dept_id": "DEP-008",
+    "is_active": 1,
+    "appointed_at": "2025-10-22 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000021",
+    "employee_id": "EMP-000021",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-31 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000022",
+    "employee_id": "EMP-000022",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-24 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000023",
+    "employee_id": "EMP-000023",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-11-02 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000024",
+    "employee_id": "EMP-000024",
+    "dept_id": "DEP-008",
+    "is_active": 1,
+    "appointed_at": "2025-11-02 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000025",
+    "employee_id": "EMP-000025",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-29 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000026",
+    "employee_id": "EMP-000026",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-21 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000027",
+    "employee_id": "EMP-000027",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-29 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000028",
+    "employee_id": "EMP-000028",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-11-03 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000029",
+    "employee_id": "EMP-000029",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-28 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000030",
+    "employee_id": "EMP-000030",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-30 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000031",
+    "employee_id": "EMP-000031",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-11-03 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000032",
+    "employee_id": "EMP-000032",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-22 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000033",
+    "employee_id": "EMP-000033",
+    "dept_id": "DEP-005",
+    "is_active": 1,
+    "appointed_at": "2025-10-29 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000034",
+    "employee_id": "EMP-000034",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-30 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000035",
+    "employee_id": "EMP-000035",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-10-30 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000036",
+    "employee_id": "EMP-000036",
+    "dept_id": "DEP-005",
+    "is_active": 1,
+    "appointed_at": "2025-10-28 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000037",
+    "employee_id": "EMP-000037",
+    "dept_id": "DEP-004",
+    "is_active": 1,
+    "appointed_at": "2025-10-27 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000038",
+    "employee_id": "EMP-000038",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-11-01 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000039",
+    "employee_id": "EMP-000039",
+    "dept_id": "DEP-001",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000040",
+    "employee_id": "EMP-000040",
+    "dept_id": "DEP-004",
+    "is_active": 1,
+    "appointed_at": "2025-10-24 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000041",
+    "employee_id": "EMP-000041",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-11-04 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000042",
+    "employee_id": "EMP-000042",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000043",
+    "employee_id": "EMP-000043",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-26 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000044",
+    "employee_id": "EMP-000044",
+    "dept_id": "DEP-008",
+    "is_active": 1,
+    "appointed_at": "2025-11-01 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000045",
+    "employee_id": "EMP-000045",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-11-02 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000046",
+    "employee_id": "EMP-000046",
+    "dept_id": "DEP-007",
+    "is_active": 1,
     "appointed_at": "2025-11-08 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000047",
+    "employee_id": "EMP-000047",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-31 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000048",
+    "employee_id": "EMP-000048",
+    "dept_id": "DEP-006",
+    "is_active": 1,
+    "appointed_at": "2025-10-30 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000049",
+    "employee_id": "EMP-000049",
+    "dept_id": "DEP-004",
+    "is_active": 1,
+    "appointed_at": "2025-11-09 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000050",
+    "employee_id": "EMP-000050",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-11-02 09:00:00"
   }
 ]

@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-30 07:15:29 UTC",
+  "timestamp": "2026-10-30 08:13:28 UTC",
   "database": "yottaflex.db",
   "total_findings": 25,
   "baseline_defects_count": 0,
   "injected_anomalies_detected": 25,
   "metrics": {
-    "total_tasks": 8007,
+    "total_tasks": 8000,
     "completed_tasks": 7798,
-    "task_completion_rate_pct": 97.39,
-    "total_active_grants": 1205,
+    "task_completion_rate_pct": 97.47,
+    "total_active_grants": 1206,
     "access_compliance_rate_pct": 99.17,
     "total_assets": 1200,
     "asset_reconciliation_rate_pct": 99.58
@@ -109,15 +109,6 @@
       "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
       "severity": "CRITICAL",
       "entity_name": "access_grants",
-      "record_id": "GRANT-EMP-000995-001",
-      "is_injected_anomaly": true,
-      "description": "Grant GRANT-EMP-000995-001 active before start date 2026-06-17 or unapproved."
-    },
-    {
-      "dimension": "6_ACCESS_RECONCILIATION",
-      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
-      "severity": "CRITICAL",
-      "entity_name": "access_grants",
       "record_id": "GRANT-EMP-000996-001",
       "is_injected_anomaly": true,
       "description": "Grant GRANT-EMP-000996-001 active before start date 2026-06-15 or unapproved."
@@ -148,6 +139,15 @@
       "record_id": "GRANT-EMP-000999-001",
       "is_injected_anomaly": true,
       "description": "Grant GRANT-EMP-000999-001 active before start date 2026-06-12 or unapproved."
+    },
+    {
+      "dimension": "6_ACCESS_RECONCILIATION",
+      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
+      "severity": "CRITICAL",
+      "entity_name": "access_grants",
+      "record_id": "GRANT-EMP-001000-001",
+      "is_injected_anomaly": true,
+      "description": "Grant GRANT-EMP-001000-001 active before start date 2026-06-16 or unapproved."
     },
     {
       "dimension": "7_ASSET_RECONCILIATION",
@@ -199,15 +199,6 @@
       "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
       "severity": "HIGH",
       "entity_name": "assets",
-      "record_id": "AST-000995",
-      "is_injected_anomaly": true,
-      "description": "Asset AST-000995 marked RECOVERED but retains custodian EMP-000995."
-    },
-    {
-      "dimension": "7_ASSET_RECONCILIATION",
-      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-      "severity": "HIGH",
-      "entity_name": "assets",
       "record_id": "AST-000996",
       "is_injected_anomaly": true,
       "description": "Asset AST-000996 marked RECOVERED but retains custodian EMP-000996."
@@ -238,6 +229,15 @@
       "record_id": "AST-000999",
       "is_injected_anomaly": true,
       "description": "Asset AST-000999 marked RECOVERED but retains custodian EMP-000999."
+    },
+    {
+      "dimension": "7_ASSET_RECONCILIATION",
+      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
+      "severity": "HIGH",
+      "entity_name": "assets",
+      "record_id": "AST-001000",
+      "is_injected_anomaly": true,
+      "description": "Asset AST-001000 marked RECOVERED but retains custodian EMP-001000."
     }
   ]
 }

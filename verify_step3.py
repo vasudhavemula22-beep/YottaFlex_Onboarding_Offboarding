@@ -221,7 +221,7 @@ def run_step3_verification():
             FROM employees e
             LEFT JOIN offboarding_cases o ON e.employee_id = o.employee_id
             WHERE e.employment_status = 'ACTIVE' AND o.offboarding_case_id IS NULL
-            ORDER BY e.employee_id DESC
+              AND e.employee_id = 'EMP-000500'
             LIMIT 1;
             """
         )

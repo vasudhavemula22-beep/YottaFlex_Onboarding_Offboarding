@@ -3,6 +3,17 @@
     "anomaly_id": "ANO-000001",
     "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
     "entity_name": "access_grants",
+    "record_id": "GRANT-EMP-001000-001",
+    "issue_type": "PRESTART_OR_UNAPPROVED_ACCESS",
+    "expected_finding": "Access granted on 2026-05-26 prior to start date 2026-06-16 with no approver.",
+    "expected_decision": "REVOKE_AND_REAPPROVE",
+    "rule_violated": "Access Rule 4.1: Entitlements must not be active before employee start date and without recorded approval.",
+    "is_ground_truth": 1
+  },
+  {
+    "anomaly_id": "ANO-000002",
+    "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
+    "entity_name": "access_grants",
     "record_id": "GRANT-EMP-000999-001",
     "issue_type": "PRESTART_OR_UNAPPROVED_ACCESS",
     "expected_finding": "Access granted on 2026-05-22 prior to start date 2026-06-12 with no approver.",
@@ -11,7 +22,7 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000002",
+    "anomaly_id": "ANO-000003",
     "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
     "entity_name": "access_grants",
     "record_id": "GRANT-EMP-000998-001",
@@ -22,7 +33,7 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000003",
+    "anomaly_id": "ANO-000004",
     "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
     "entity_name": "access_grants",
     "record_id": "GRANT-EMP-000997-001",
@@ -33,23 +44,12 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000004",
+    "anomaly_id": "ANO-000005",
     "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
     "entity_name": "access_grants",
     "record_id": "GRANT-EMP-000996-001",
     "issue_type": "PRESTART_OR_UNAPPROVED_ACCESS",
     "expected_finding": "Access granted on 2026-05-25 prior to start date 2026-06-15 with no approver.",
-    "expected_decision": "REVOKE_AND_REAPPROVE",
-    "rule_violated": "Access Rule 4.1: Entitlements must not be active before employee start date and without recorded approval.",
-    "is_ground_truth": 1
-  },
-  {
-    "anomaly_id": "ANO-000005",
-    "scenario_id": "SCENARIO_1_PRESTART_ACCESS",
-    "entity_name": "access_grants",
-    "record_id": "GRANT-EMP-000995-001",
-    "issue_type": "PRESTART_OR_UNAPPROVED_ACCESS",
-    "expected_finding": "Access granted on 2026-05-27 prior to start date 2026-06-17 with no approver.",
     "expected_decision": "REVOKE_AND_REAPPROVE",
     "rule_violated": "Access Rule 4.1: Entitlements must not be active before employee start date and without recorded approval.",
     "is_ground_truth": 1
@@ -223,6 +223,17 @@
     "anomaly_id": "ANO-000021",
     "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
     "entity_name": "assets",
+    "record_id": "AST-001000",
+    "issue_type": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
+    "expected_finding": "Asset AST-001000 is marked RECOVERED but still assigned to custodian EMP-001000.",
+    "expected_decision": "CLEAR_CUSTODIAN_REFERENCE",
+    "rule_violated": "Asset Rule 3.5: Assets in RECOVERED or IN_STOCK status must have assigned_to set to NULL.",
+    "is_ground_truth": 1
+  },
+  {
+    "anomaly_id": "ANO-000022",
+    "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
+    "entity_name": "assets",
     "record_id": "AST-000999",
     "issue_type": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
     "expected_finding": "Asset AST-000999 is marked RECOVERED but still assigned to custodian EMP-000999.",
@@ -231,7 +242,7 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000022",
+    "anomaly_id": "ANO-000023",
     "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
     "entity_name": "assets",
     "record_id": "AST-000998",
@@ -242,7 +253,7 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000023",
+    "anomaly_id": "ANO-000024",
     "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
     "entity_name": "assets",
     "record_id": "AST-000997",
@@ -253,23 +264,12 @@
     "is_ground_truth": 1
   },
   {
-    "anomaly_id": "ANO-000024",
+    "anomaly_id": "ANO-000025",
     "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
     "entity_name": "assets",
     "record_id": "AST-000996",
     "issue_type": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
     "expected_finding": "Asset AST-000996 is marked RECOVERED but still assigned to custodian EMP-000996.",
-    "expected_decision": "CLEAR_CUSTODIAN_REFERENCE",
-    "rule_violated": "Asset Rule 3.5: Assets in RECOVERED or IN_STOCK status must have assigned_to set to NULL.",
-    "is_ground_truth": 1
-  },
-  {
-    "anomaly_id": "ANO-000025",
-    "scenario_id": "SCENARIO_5_RECOVERED_REMAINS_ASSIGNED",
-    "entity_name": "assets",
-    "record_id": "AST-000995",
-    "issue_type": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
-    "expected_finding": "Asset AST-000995 is marked RECOVERED but still assigned to custodian EMP-000995.",
     "expected_decision": "CLEAR_CUSTODIAN_REFERENCE",
     "rule_violated": "Asset Rule 3.5: Assets in RECOVERED or IN_STOCK status must have assigned_to set to NULL.",
     "is_ground_truth": 1
