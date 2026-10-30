@@ -1,0 +1,36 @@
+{
+  "project_name": "YottaFlex AI Employee Onboarding & Offboarding Automation",
+  "generator_version": "1.0.0",
+  "provenance_statement": "100% Synthetic relational dataset generated via deterministic pseudorandom simulation. No real, confidential, or proprietary third-party data was accessed or incorporated.",
+  "random_seed": 20261022,
+  "dataset_scale_mode": "FULL",
+  "python_runtime": "3.13.7",
+  "generation_timestamp_utc": "2026-10-29 19:28:48 UTC",
+  "target_database": "yottaflex.db",
+  "total_relational_records": 1297,
+  "table_record_counts": {
+    "departments": 8,
+    "roles": 24,
+    "access_roles": 20,
+    "employees": 50,
+    "managers": 5,
+    "onboarding_cases": 50,
+    "offboarding_cases": 9,
+    "tasks": 407,
+    "task_dependencies": 349,
+    "access_grants": 76,
+    "assets": 60,
+    "audit_events": 239
+  },
+  "exports_provided": [
+    "exports/csv/*.csv (12 entities)",
+    "exports/json/*.json (12 entities)",
+    "exports/sql/seed_data.sql",
+    "exports/ground_truth.csv",
+    "exports/ground_truth.json",
+    "exports/validation_summary.json",
+    "exports/acceptance_report.json",
+    "exports/checksums.json",
+    "exports/checksums.sha256"
+  ]
+}

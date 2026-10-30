@@ -1,0 +1,182 @@
+[
+  {
+    "access_role_id": "ACR-001",
+    "role_name": "Google Workspace Standard",
+    "system_name": "Google Workspace",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-002",
+    "role_name": "Slack Collaboration Core",
+    "system_name": "Slack",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-003",
+    "role_name": "Jira & Confluence Contributor",
+    "system_name": "Atlassian",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-004",
+    "role_name": "GitHub Organization Member",
+    "system_name": "GitHub Enterprise",
+    "risk_level": "MEDIUM",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-005",
+    "role_name": "GitHub Repository Administrator",
+    "system_name": "GitHub Enterprise",
+    "risk_level": "HIGH",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-006",
+    "role_name": "AWS Cloud Developer Sandbox",
+    "system_name": "Amazon Web Services",
+    "risk_level": "MEDIUM",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-007",
+    "role_name": "AWS Production Infrastructure Admin",
+    "system_name": "Amazon Web Services",
+    "risk_level": "CRITICAL",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 1,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-008",
+    "role_name": "Workday Employee Self-Service",
+    "system_name": "Workday HCM",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-009",
+    "role_name": "Workday HR Operations Specialist",
+    "system_name": "Workday HCM",
+    "risk_level": "HIGH",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 1,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-010",
+    "role_name": "Salesforce Sales Representative",
+    "system_name": "Salesforce CRM",
+    "risk_level": "MEDIUM",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-011",
+    "role_name": "Salesforce System Administrator",
+    "system_name": "Salesforce CRM",
+    "risk_level": "CRITICAL",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 1,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-012",
+    "role_name": "Snowflake Analytics Reader",
+    "system_name": "Snowflake DW",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-013",
+    "role_name": "Snowflake Security Administrator",
+    "system_name": "Snowflake DW",
+    "risk_level": "CRITICAL",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 1,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-014",
+    "role_name": "NetSuite Financial Accountant",
+    "system_name": "Oracle NetSuite",
+    "risk_level": "HIGH",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 1,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-015",
+    "role_name": "1Password Corporate Vault Access",
+    "system_name": "1Password Enterprise",
+    "risk_level": "MEDIUM",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-016",
+    "role_name": "Datadog Observability Viewer",
+    "system_name": "Datadog",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-017",
+    "role_name": "PagerDuty Incident Responder",
+    "system_name": "PagerDuty",
+    "risk_level": "MEDIUM",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-018",
+    "role_name": "Zoom Pro Video Conferencing",
+    "system_name": "Zoom Video",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-019",
+    "role_name": "DocuSign Signer & Sender",
+    "system_name": "DocuSign",
+    "risk_level": "LOW",
+    "requires_manager_approval": 0,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "access_role_id": "ACR-020",
+    "role_name": "Enterprise VPN Gateway",
+    "system_name": "Cisco AnyConnect",
+    "risk_level": "HIGH",
+    "requires_manager_approval": 1,
+    "requires_hr_approval": 0,
+    "created_at": "2025-01-01 00:00:00"
+  }
+]

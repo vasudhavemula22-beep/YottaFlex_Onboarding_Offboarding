@@ -1,0 +1,170 @@
+[
+  {
+    "role_id": "ROL-001",
+    "role_title": "Software Engineer",
+    "dept_id": "DEP-001",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-002",
+    "role_title": "Senior Software Engineer",
+    "dept_id": "DEP-001",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-003",
+    "role_title": "Principal Architect",
+    "dept_id": "DEP-001",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-004",
+    "role_title": "Associate Product Manager",
+    "dept_id": "DEP-002",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-005",
+    "role_title": "Senior Product Manager",
+    "dept_id": "DEP-002",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-006",
+    "role_title": "Director of Product",
+    "dept_id": "DEP-002",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-007",
+    "role_title": "IT Support Specialist",
+    "dept_id": "DEP-003",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-008",
+    "role_title": "Systems Administrator",
+    "dept_id": "DEP-003",
+    "standard_access_profile": "SYSTEM_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-009",
+    "role_title": "IT Operations Director",
+    "dept_id": "DEP-003",
+    "standard_access_profile": "SYSTEM_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-010",
+    "role_title": "HR Coordinator",
+    "dept_id": "DEP-004",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-011",
+    "role_title": "HR Business Partner",
+    "dept_id": "DEP-004",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-012",
+    "role_title": "Chief People Officer",
+    "dept_id": "DEP-004",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-013",
+    "role_title": "Account Executive",
+    "dept_id": "DEP-005",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-014",
+    "role_title": "Sales Operations Manager",
+    "dept_id": "DEP-005",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-015",
+    "role_title": "VP of Worldwide Sales",
+    "dept_id": "DEP-005",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-016",
+    "role_title": "Compliance Analyst",
+    "dept_id": "DEP-006",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-017",
+    "role_title": "Corporate Counsel",
+    "dept_id": "DEP-006",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-018",
+    "role_title": "General Counsel",
+    "dept_id": "DEP-006",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-019",
+    "role_title": "Financial Analyst",
+    "dept_id": "DEP-007",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-020",
+    "role_title": "Senior Controller",
+    "dept_id": "DEP-007",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-021",
+    "role_title": "Chief Financial Officer",
+    "dept_id": "DEP-007",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-022",
+    "role_title": "Operations Associate",
+    "dept_id": "DEP-008",
+    "standard_access_profile": "STANDARD_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-023",
+    "role_title": "Operations Manager",
+    "dept_id": "DEP-008",
+    "standard_access_profile": "ELEVATED_USER",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "role_id": "ROL-024",
+    "role_title": "Chief Operating Officer",
+    "dept_id": "DEP-008",
+    "standard_access_profile": "DEPT_ADMIN",
+    "created_at": "2025-01-01 00:00:00"
+  }
+]

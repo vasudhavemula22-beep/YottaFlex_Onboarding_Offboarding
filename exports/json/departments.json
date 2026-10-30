@@ -1,0 +1,50 @@
+[
+  {
+    "dept_id": "DEP-001",
+    "dept_name": "Engineering",
+    "cost_center": "CC-1001",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-002",
+    "dept_name": "Product Management",
+    "cost_center": "CC-1002",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-003",
+    "dept_name": "Information Technology",
+    "cost_center": "CC-1003",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-004",
+    "dept_name": "Human Resources",
+    "cost_center": "CC-1004",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-005",
+    "dept_name": "Sales & Marketing",
+    "cost_center": "CC-1005",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-006",
+    "dept_name": "Legal & Compliance",
+    "cost_center": "CC-1006",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-007",
+    "dept_name": "Finance & Accounting",
+    "cost_center": "CC-1007",
+    "created_at": "2025-01-01 00:00:00"
+  },
+  {
+    "dept_id": "DEP-008",
+    "dept_name": "Global Operations",
+    "cost_center": "CC-1008",
+    "created_at": "2025-01-01 00:00:00"
+  }
+]

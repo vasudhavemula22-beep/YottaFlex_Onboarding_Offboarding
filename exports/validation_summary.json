@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-10-29 19:28:30 UTC",
+  "database": "yottaflex.db",
+  "total_findings": 5,
+  "baseline_defects_count": 0,
+  "injected_anomalies_detected": 5,
+  "metrics": {
+    "total_tasks": 407,
+    "completed_tasks": 394,
+    "task_completion_rate_pct": 96.81,
+    "total_active_grants": 60,
+    "access_compliance_rate_pct": 96.67,
+    "total_assets": 60,
+    "asset_reconciliation_rate_pct": 98.33
+  },
+  "findings": [
+    {
+      "dimension": "5_TASK_DEPENDENCIES",
+      "rule_id": "TASK_DEPENDENCY_CYCLE",
+      "severity": "CRITICAL",
+      "entity_name": "task_dependencies",
+      "record_id": "DEP-TASK-OFF-2026-000001-001-REV",
+      "is_injected_anomaly": true,
+      "description": "Circular dependency between TASK-OFF-2026-000001-001 and TASK-OFF-2026-000001-002."
+    },
+    {
+      "dimension": "6_ACCESS_RECONCILIATION",
+      "rule_id": "TERMINATED_EMPLOYEE_ACTIVE_ACCESS",
+      "severity": "CRITICAL",
+      "entity_name": "access_grants",
+      "record_id": "GRANT-EMP-000001-001",
+      "is_injected_anomaly": true,
+      "description": "Terminated employee EMP-000001 retains active access grant."
+    },
+    {
+      "dimension": "6_ACCESS_RECONCILIATION",
+      "rule_id": "PRESTART_OR_UNAPPROVED_ACCESS",
+      "severity": "CRITICAL",
+      "entity_name": "access_grants",
+      "record_id": "GRANT-EMP-000049-001",
+      "is_injected_anomaly": true,
+      "description": "Grant GRANT-EMP-000049-001 active before start date 2026-06-15 or unapproved."
+    },
+    {
+      "dimension": "7_ASSET_RECONCILIATION",
+      "rule_id": "DUPLICATE_ASSET_ASSIGNMENT",
+      "severity": "HIGH",
+      "entity_name": "assets",
+      "record_id": "AST-000009,AST-000053",
+      "is_injected_anomaly": true,
+      "description": "Custodian EMP-000009 holds multiple active laptops (AST-000009,AST-000053)."
+    },
+    {
+      "dimension": "7_ASSET_RECONCILIATION",
+      "rule_id": "RECOVERED_ASSET_RETAINS_CUSTODIAN",
+      "severity": "HIGH",
+      "entity_name": "assets",
+      "record_id": "AST-000049",
+      "is_injected_anomaly": true,
+      "description": "Asset AST-000049 marked RECOVERED but retains custodian EMP-000049."
+    }
+  ]
+}

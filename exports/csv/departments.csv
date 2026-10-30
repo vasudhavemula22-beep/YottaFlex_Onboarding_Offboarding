@@ -1,0 +1,9 @@
+dept_id,dept_name,cost_center,created_at
+DEP-001,Engineering,CC-1001,2025-01-01 00:00:00
+DEP-002,Product Management,CC-1002,2025-01-01 00:00:00
+DEP-003,Information Technology,CC-1003,2025-01-01 00:00:00
+DEP-004,Human Resources,CC-1004,2025-01-01 00:00:00
+DEP-005,Sales & Marketing,CC-1005,2025-01-01 00:00:00
+DEP-006,Legal & Compliance,CC-1006,2025-01-01 00:00:00
+DEP-007,Finance & Accounting,CC-1007,2025-01-01 00:00:00
+DEP-008,Global Operations,CC-1008,2025-01-01 00:00:00

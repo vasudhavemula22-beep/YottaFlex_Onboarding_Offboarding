@@ -1,0 +1,21 @@
+access_role_id,role_name,system_name,risk_level,requires_manager_approval,requires_hr_approval,created_at
+ACR-001,Google Workspace Standard,Google Workspace,LOW,0,0,2025-01-01 00:00:00
+ACR-002,Slack Collaboration Core,Slack,LOW,0,0,2025-01-01 00:00:00
+ACR-003,Jira & Confluence Contributor,Atlassian,LOW,0,0,2025-01-01 00:00:00
+ACR-004,GitHub Organization Member,GitHub Enterprise,MEDIUM,1,0,2025-01-01 00:00:00
+ACR-005,GitHub Repository Administrator,GitHub Enterprise,HIGH,1,0,2025-01-01 00:00:00
+ACR-006,AWS Cloud Developer Sandbox,Amazon Web Services,MEDIUM,1,0,2025-01-01 00:00:00
+ACR-007,AWS Production Infrastructure Admin,Amazon Web Services,CRITICAL,1,1,2025-01-01 00:00:00
+ACR-008,Workday Employee Self-Service,Workday HCM,LOW,0,0,2025-01-01 00:00:00
+ACR-009,Workday HR Operations Specialist,Workday HCM,HIGH,0,1,2025-01-01 00:00:00
+ACR-010,Salesforce Sales Representative,Salesforce CRM,MEDIUM,1,0,2025-01-01 00:00:00
+ACR-011,Salesforce System Administrator,Salesforce CRM,CRITICAL,1,1,2025-01-01 00:00:00
+ACR-012,Snowflake Analytics Reader,Snowflake DW,LOW,0,0,2025-01-01 00:00:00
+ACR-013,Snowflake Security Administrator,Snowflake DW,CRITICAL,1,1,2025-01-01 00:00:00
+ACR-014,NetSuite Financial Accountant,Oracle NetSuite,HIGH,1,1,2025-01-01 00:00:00
+ACR-015,1Password Corporate Vault Access,1Password Enterprise,MEDIUM,1,0,2025-01-01 00:00:00
+ACR-016,Datadog Observability Viewer,Datadog,LOW,0,0,2025-01-01 00:00:00
+ACR-017,PagerDuty Incident Responder,PagerDuty,MEDIUM,1,0,2025-01-01 00:00:00
+ACR-018,Zoom Pro Video Conferencing,Zoom Video,LOW,0,0,2025-01-01 00:00:00
+ACR-019,DocuSign Signer & Sender,DocuSign,LOW,0,0,2025-01-01 00:00:00
+ACR-020,Enterprise VPN Gateway,Cisco AnyConnect,HIGH,1,0,2025-01-01 00:00:00

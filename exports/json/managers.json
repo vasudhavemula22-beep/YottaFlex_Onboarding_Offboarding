@@ -1,0 +1,37 @@
+[
+  {
+    "manager_id": "MGR-000001",
+    "employee_id": "EMP-000001",
+    "dept_id": "DEP-007",
+    "is_active": 1,
+    "appointed_at": "2025-10-21 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000002",
+    "employee_id": "EMP-000002",
+    "dept_id": "DEP-003",
+    "is_active": 1,
+    "appointed_at": "2025-11-06 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000003",
+    "employee_id": "EMP-000003",
+    "dept_id": "DEP-003",
+    "is_active": 1,
+    "appointed_at": "2025-11-08 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000004",
+    "employee_id": "EMP-000004",
+    "dept_id": "DEP-002",
+    "is_active": 1,
+    "appointed_at": "2025-11-15 09:00:00"
+  },
+  {
+    "manager_id": "MGR-000005",
+    "employee_id": "EMP-000005",
+    "dept_id": "DEP-003",
+    "is_active": 1,
+    "appointed_at": "2025-11-08 09:00:00"
+  }
+]

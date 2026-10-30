@@ -1,0 +1,11 @@
+﻿# YottaFlex AI Workflow Automation Dependencies
+# Python 3.10+ compatible
+
+# Core interactive web UI framework
+streamlit>=1.35.0, <2.0.0
+
+# Tabular data structures and metric calculations
+pandas>=2.2.0, <3.0.0
+
+# Type hinting backports
+typing_extensions>=4.10.0
