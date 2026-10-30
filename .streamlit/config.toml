@@ -1,18 +1,4 @@
-
----
-
-### File 4 (Optional Polish): `.streamlit/config.toml`
-
-**Location:** `D:\vasudha datasets and projects\YottaFlex_Onboarding_Offboarding\.streamlit\config.toml`
-
-**Why it is needed:** This stops Streamlit from asking survey prompts in your terminal and gives the dashboard a clean enterprise theme.
-
-1. In VS Code, create a new folder named `.streamlit` at your project root.
-2. Inside that folder, create a file named `config.toml`.
-3. Paste this content:
-
-```toml
-[browser]
+﻿[browser]
 gatherUsageStats = false
 
 [server]
